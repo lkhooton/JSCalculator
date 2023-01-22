@@ -1,3 +1,23 @@
 h1 {
   text-align: center;
 }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, pink, rgb(239, 239, 126))
+}
+
+.calc-grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}

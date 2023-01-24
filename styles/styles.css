@@ -129,7 +129,7 @@ body {
 }
 
 .calculator__display {
-  background-color: #222222;
+  background-color: #4d4a4a;
   color: #fff;
   font-size: 1.714285714em;
   padding: 0.5em 0.75em;
@@ -169,7 +169,7 @@ body {
 }
 
 .key--equal {
-  background-image: linear-gradient(to bottom, #fe886a, #ff7033);
+  background-image: linear-gradient(to bottom, #f0a491, #f9976e);
   grid-column: -2;
   grid-row: 2 / span 4;
 }
